@@ -116,6 +116,7 @@ abstract_ai/
       "response": "AI response"
   }
   ```
+  **Using NGROK for HTTPS:**
   ![Route Prompt Response](./route_prompt.png)
 
 
@@ -133,4 +134,5 @@ abstract_ai/
       "prompts": ["Prompt 1", "Prompt 2"]
   }
   ```
+  **Using NGROK for HTTPS:**
 ![Get Prompts Response](./get_prompts.png)
