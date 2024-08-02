@@ -93,7 +93,7 @@ abstract_ai/
    ```
 
 
-### TODO: Dockerize 
+### TODO: 🐋Dockerize 
 
 ### API Endpoints
 
