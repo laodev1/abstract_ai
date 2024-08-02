@@ -116,9 +116,6 @@ To expose your local server over HTTPS with [`ngrok`](https://ngrok.com/):
 ```bash
 ngrok config add-authtoken <TOKEN>
 ```
-```bash
-ngrok http http://localhost:5000
-```
 
 1. **Start `ngrok`**:
    ```bash
