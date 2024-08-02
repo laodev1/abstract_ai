@@ -102,7 +102,7 @@ abstract_ai/
 - **Endpoint**: `/route_prompt`
 - **Method**: POST
 - **Headers**: 
-  - `x-api-key`: Your API key
+  - `x-api-key`: Your API key // Note: this is hardcoded as 'api_key_user1'  inside user_management.py for demo purposes only. 
 - **Request Body**:
   ```json
   {
