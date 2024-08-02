@@ -53,7 +53,7 @@ abstract_ai/
 
 2. **Set Up the Virtual Environment**:
    ```bash
-   python3 -m venv venv
+   python -m venv venv
    source venv/bin/activate
    ```
 
