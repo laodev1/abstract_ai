@@ -116,6 +116,8 @@ abstract_ai/
       "response": "AI response"
   }
   ```
+  ![Route Prompt Response](./route_prompt.png)
+
 
 #### 2. Get User Prompts
 
@@ -131,3 +133,4 @@ abstract_ai/
       "prompts": ["Prompt 1", "Prompt 2"]
   }
   ```
+![Get Prompts Response](./get_prompts.png)
