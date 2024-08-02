@@ -92,10 +92,34 @@ abstract_ai/
    python app.py
    ```
 
+### Testing the API Endpoint
 
-### TODO: 🐋Dockerize 
+1. **Test the `/route_prompt` endpoint**:
+   ```bash
+   curl -X POST http://localhost:5000/route_prompt \
+        -H "Content-Type: application/json" \
+        -H "x-api-key: api_key_user1" \
+        -d '{"prompt": "Hello, how are you?", "user_id": "user1"}'
+   ```
+
+2. **Test the `/prompts` endpoint**:
+   ```bash
+   curl -X GET "http://localhost:5000/prompts?user_id=user1" \
+        -H "x-api-key: api_key_user1"
+   ```
 
 ### API Endpoints
+#### Using `ngrok` for HTTPS
+To expose your local server over HTTPS with `ngrok`:
+
+1. **Start `ngrok`**:
+   ```bash
+   ngrok http 5000
+   ```
+
+2. **Access the Secure URL**:
+   - `ngrok` will provide you with a secure HTTPS URL which you can use to access your application remotely.
+
 
 #### 1. Route Prompt
 
@@ -135,3 +159,5 @@ abstract_ai/
   }
   ```
 ![Get Prompts Response](./get_prompts.png)
+
+### TODO: 🐋Dockerize 
