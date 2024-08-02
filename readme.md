@@ -110,7 +110,14 @@ abstract_ai/
 
 ### API Endpoints
 #### Using `ngrok` for HTTPS
-To expose your local server over HTTPS with `ngrok`:
+To expose your local server over HTTPS with [`ngrok`](https://ngrok.com/):
+**First use set your authtoken**
+```bash
+ngrok config add-authtoken <TOKEN>
+```
+```bash
+ngrok http http://localhost:5000
+```
 
 1. **Start `ngrok`**:
    ```bash
