@@ -125,7 +125,7 @@ abstract_ai/
 - **Endpoint**: `/prompts`
 - **Method**: GET
 - **Headers**: 
-  - `x-api-key`: Your API key
+  - `x-api-key`: Your API key  // Note: this is hardcoded as 'api_key_user1' inside user_management.py for demo purposes only.
 - **Query Params**:
   - `user_id`: The user ID
 - **Response**:
